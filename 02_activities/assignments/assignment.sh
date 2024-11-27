@@ -41,7 +41,7 @@ rm ./data/raw/*ipaddr*.log ./data/processed/user_logs/*ipaddr*.log
 #rejecting the commit from incoming branch rf is not correct command as per instruction
 
 # 8. Create a file named ./data/inventory.txt that lists all the files in the subfolders of ./data/processed
-ls ./data/processed >> ./data/inventory.txt
+ls -LR ./data/processed >> ./data/inventory.txt
 
 
 ###########################################
